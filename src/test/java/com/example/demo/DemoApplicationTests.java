@@ -10,4 +10,14 @@ class DemoApplicationTests {
 	void contextLoads() {
 	}
 
+	public static void main(String[] args) {
+		Spring
+	}
+	}
+
+	@RequestMapping("/")
+	String sayHello() {
+   	 return "Hello Azure!";
+	}
+
 }
